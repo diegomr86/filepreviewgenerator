@@ -61,3 +61,9 @@ To run in production mode run:
 ```
 
 This application use the enviroment variable 'PORT' or the 3000 by default.
+
+## Use
+
+To see this in use you can access the app sending a encoded url in fileurl as parameter like this:
+
+http://localhost:3000/?fileurl=https%3A%2F%2Fbloximages.chicago2.vip.townnews.com%2Ftribdem.com%2Fcontent%2Ftncms%2Fassets%2Fv3%2Feditorial%2F3%2F83%2F38384be2-3ba5-11e8-adec-bf48bc62810f%2F5acadc92f3c7d.image.jpg
