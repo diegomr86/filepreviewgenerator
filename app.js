@@ -63,6 +63,6 @@ app.use('/static', express.static('static'));
 var port = process.env.PORT || 3000
 
 app.listen(port, function () {
-  console.log('Xingu file preview generator is running on port '+ port +'!');
+  console.log('File preview generator is running on port '+ port +'!');
 });
 
