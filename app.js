@@ -1,4 +1,3 @@
-
 var express = require('express');
 var app = express();
 var filepreview = require('filepreview');

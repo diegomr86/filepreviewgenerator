@@ -4,7 +4,13 @@ File Preview Generator: A file preview generator
 
 This api endpoint will generate a file preview (thumbnails) from a given url by the fileurl request parameter
 
-## Installation
+## Enviroment
+
+You can run/work with this project by using docker or out of container using npm
+
+## Install without docker
+
+Install the dependencies first:
 
 depends on 'unoconv':
 
@@ -61,6 +67,23 @@ To run in production mode run:
 ```
 
 This application use the enviroment variable 'PORT' or the 3000 by default.
+
+## Using docker
+
+Go inside the project root folder and create the docker image:
+
+```
+  $ docker build -t filepreviewgenerator
+```
+
+Now just run the project with docker compose
+
+
+```
+  $ docker-compose up
+```
+
+Now the app will under the port 3000.
 
 ## Use
 
